@@ -13,7 +13,7 @@ class Program
         // nueva variable |  funcion    |aqui la ocuparemos como parametro para que 
         //                |             |la funcion "SquerdNumber" la garrarre y la 
         //                |             |supla por su parametro "number"
-        DisplayNameAndSquerdNumber(UserName, UserNumber);
+        DisplayNameAndSquerdNumber(UserName, squerdnumber);
         // "(UserName, UserNumber)" son varibales que antes definomos para ahora 
         // usarlas como paramtros para la funcion que tambien cuenta con parametros.
 
