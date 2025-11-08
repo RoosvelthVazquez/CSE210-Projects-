@@ -12,23 +12,23 @@ class Program
 
         if (a >= 90)
         {
-            letter= "A";
+            letter = "A";
         }
         else if (a >= 80)
         {
-            letter= "B";;
+            letter = "B"; ;
         }
         else if (a >= 70)
         {
-            letter= "C";;
+            letter = "C"; ;
         }
         else if (a >= 60)
         {
-            letter= "C";
+            letter = "C";
         }
         else
         {
-            letter= "F";
+            letter = "F";
         }
 
         Console.WriteLine($"Your grade is {letter}");
@@ -42,5 +42,6 @@ class Program
         {
             Console.WriteLine("Sorry! You don't passed");
         }
+        // third statement done: add a variable called letter 
     }
 }
