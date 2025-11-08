@@ -4,6 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
+        // random Generator
         Random randomGenerator = new Random();
         int x = randomGenerator.Next(1, 100);
 
