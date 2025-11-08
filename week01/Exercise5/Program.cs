@@ -7,7 +7,7 @@ class Program
         // This show up the body of your program
         wellcome();
         string UserName = AskName();// variable "string UserName" para ocuparla en bloque
-        int UserNumber = favnumber();// varia para ocuparla como parametro despues
+        int UserNumber = favnumber();// variable para ocuparla como parametro despues
         int squerdnumber = SquerdNumber(UserNumber);
         //  Esta es la    |  Esta es la |(Esta es la variable anteriormente declarada
         // nueva variable |  funcion    |aqui la ocuparemos como parametro para que 
