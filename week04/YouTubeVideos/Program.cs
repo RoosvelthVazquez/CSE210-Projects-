@@ -6,9 +6,9 @@ class Program
     {
         List<Video> videos = new List<Video>();
 
-        Video v1 = new Video("How to Cook Pasta", "Chef Mario", 340);
+        Video v1 = new Video("How to Cook Maruchan Ramen", "Chef Arturo", 340);
         v1.AddComment(new Comment("Ana", "Great video!"));
-        v1.AddComment(new Comment("Luis", "I love pasta!"));
+        v1.AddComment(new Comment("Luis", "I love Maruchan!"));
         v1.AddComment(new Comment("Carlos", "Very helpful."));
         videos.Add(v1);
 
@@ -18,7 +18,7 @@ class Program
         v2.AddComment(new Comment("Pedro", "You are getting better!"));
         videos.Add(v2);
 
-        Video v3 = new Video("Learn C# Classes", "CodeAcademyMX", 600);
+        Video v3 = new Video("Learn English", "EnglishConnect.com", 600);
         v3.AddComment(new Comment("Jimena", "Explained so well!"));
         v3.AddComment(new Comment("Roberto", "Thanks for the tutorial!"));
         v3.AddComment(new Comment("Fernanda", "Very clear examples."));
