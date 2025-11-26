@@ -29,5 +29,19 @@ class Program
         Console.WriteLine(o2.GetPackingLabel());
         Console.WriteLine(o2.GetShippingLabel());
         Console.WriteLine("Total Cost: $" + o2.GetTotalCost());
+
+        Console.WriteLine("--------------------------");
+
+        //Customer 3
+        Address a3 = new Address("Av. Central  Park", "New York", "NY", "United States");
+        Customer c3 = new Customer("Oliver Cowdery", a3);
+        Order o3 = new Order(c3);
+
+        o3.AddProduct(new Product("Laptop HP", "GB270", 300f, 1));
+        o3.AddProduct(new Product("Ipad 11 Gen", "IP180", 180f, 3));
+
+        Console.WriteLine(o3.GetPackingLabel());
+        Console.WriteLine(o3.GetShippingLabel());
+        Console.WriteLine("Total Cost: $" + o3.GetTotalCost());
     }
 }
