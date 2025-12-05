@@ -1,5 +1,5 @@
 //Exceding requirements
-// I have addes a new animation in option two which is a loading ba [############]
+// I have addes a new animation in option two which is a loading bar [############]
 using System;
 
 class Program
